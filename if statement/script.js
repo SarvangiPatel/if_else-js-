@@ -43,10 +43,10 @@ if (a > b) {
 var num1 = 30;
 var num2 = 20;
 var num3 = 15;
-if (num1 > num2 || num1 > num3) {
+if (num1 > num2 && num1 > num3) {
     console.log("num1 is greater");
 } 
-else if(num1 < num2 || num2 > num3) {
+else if(num1 < num2 && num2 > num3) {
     console.log("num2 is greater");
 }
 
