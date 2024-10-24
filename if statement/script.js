@@ -50,6 +50,56 @@ else if(num1 < num2 && num2 > num3) {
     console.log("num2 is greater");
 }
 
+
+  
+// code 5: check name Equal or not
+
+var name1 = "sarvangi";
+var name2 = "sarvangi";
+
+if (name1 == name2) {
+    console.log("Names are Equal");
+} else {
+    console.log("Names are not equal");
+}
+
+// code 6 :
+
+var total_bill = 799;
+
+if (total_bill > 1000) {
+    console.log("20% discount");
+} else if (total_bill > 500) {
+    console.log("10% discount");
+} else {
+    console.log("No discount");
+}
+
+// code 7:
+
+var rice_available = false;
+var wheat_available = true;
+var apple_available = true;
+
+if (rice_available) {
+  console.log("Buy rice");
+} else if (wheat_available) {
+  console.log("Buy Wheat");
+} else if (apple_available) {
+  console.log("Buy apple");
+} else {
+  console.log("Nothing is available");
+}
+
+// code 7: check Vowels: a, e, i, o, u
+var char = "z";
+
+if (char == "a" || char == "e" || char == "i" || char == "o" || char == "u") {
+  console.log("Vowel");
+} else {
+  console.log("Not a vowel");
+}
+
 else{
     console.log("num3 is not greater");
 }
